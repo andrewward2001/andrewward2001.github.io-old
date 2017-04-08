@@ -29,7 +29,7 @@ module.exports = function(grunt) {
       all: {
         files: [
           'css/*.less',
-          'js/*.js'
+          'js/main.js'
         ],
         tasks: ['less', 'uglify']
       }
